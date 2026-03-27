@@ -11,7 +11,8 @@
 
 ## Problem Statement (max 150 words)
 
-Managing event details manually can be difficult and time-consuming, especially when multiple events need to be tracked. This project solves that problem by creating a simple desktop-based Event Management System using Java and Swing. The system allows users to add, view, update, and delete event records through a graphical user interface. It follows the MVC (Model-View-Controller) architecture to separate data, user interface, and business logic, making the project easy to understand and maintain. This project is suitable for beginners to learn Java GUI development, object-oriented programming concepts, and basic CRUD operations in a structured way.
+Managing event details manually can be difficult and time-consuming, especially when there are many events to manage. This project solves that problem by creating a simple Event Management System using Java Swing. It allows users to add, view, update, and delete event details through an easy-to-use graphical interface. The project follows MVC (Model-View-Controller) architecture, which separates the data, user interface, and program logic. This makes the code more organized, easier to understand, and easier to maintain. It is a beginner-friendly project that helps students learn Java GUI development, OOP concepts, and basic CRUD operations in a simple and structured way.
+
 
 ---
 
