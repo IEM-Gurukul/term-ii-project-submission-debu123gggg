@@ -1,14 +1,12 @@
 import controller.EventController;
-import javax.swing.*;
-import view.MainFrame;
+import view.EventView;
 
 public class Main {
     public static void main(String[] args) {
-        // Use system look & feel as base, then override with custom styling
-        try {
-            UIManager.setLookAndFeel(UIManager.getCrossPlatformLookAndFeelClassName());
-        } catch (Exception ignored) {}
-
-        SwingUtilities.invokeLater(() -> new MainFrame(new EventController()));
+        javax.swing.SwingUtilities.invokeLater(() -> {
+            EventView view = new EventView();
+            new EventController(view);
+            view.setVisible(true);
+        });
     }
 }
